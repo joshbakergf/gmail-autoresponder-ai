@@ -2,7 +2,6 @@ import os
 
 GMAIL_USER_ID = 'me'
 LABEL_NAME = 'AutoReplied'
-OPENAI_API_KEY = os.environ['OPENAI_API_KEY']
 
 IGNORE_KEYWORDS = ['no-reply', 'noreply', 'auto-reply']
 IGNORE_SENDERS = ['notifications@', 'do-not-reply@']
